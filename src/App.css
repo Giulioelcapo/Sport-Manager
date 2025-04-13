@@ -1,0 +1,242 @@
+/* Contenitore principale */
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titolo */
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Campi del modulo */
+.form-field {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-field label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-field input {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Bottone di invio */
+.submit-btn {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+/* Lista dei giocatori */
+.giocatori-list {
+  margin-top: 30px;
+}
+
+.giocatori-list h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.giocatori-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.giocatore-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Form di test */
+.test-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.test-form input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 120px;
+}
+
+.test-form button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.test-form button:hover {
+  background-color: #2980b9;
+}
+
+.test-list {
+  margin-top: 10px;
+  padding-left: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.test-list li {
+  margin-bottom: 5px;
+}
+
+/* Layout sidebar e bottoni */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 200px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.green-btn, .home-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.green-btn:hover, .home-btn:hover {
+  background-color: #45a049;
+}
+
+/* Home Button */
+.home {
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+}
+.home:hover {
+  background-color: #0056b3;
+}
+
+/* Aggiungere altre regole CSS qui, se necessario */
+
+/* Esempio di un'altra classe */
+.dashboard-btn {
+  display: block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.dashboard-btn:hover {
+  background-color: #218838;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.home-btn-header {
+  text-decoration: none;
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.home-btn-header:hover {
+  background-color: #45a049;
+}
+.dashboard-page {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-btn-container {
+  display: flex;
+  gap: 30px; /* Distanza tra i bottoni */
+  margin-top: 40px;
+}
+
+.dashboard-btn {
+  padding: 10px 20px; /* Riduci la dimensione dei bottoni */
+  font-size: 14px; /* Rendi il testo più piccolo */
+  border: 1px solid #4CAF50;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dashboard-btn:hover {
+  background-color: #45a049; /* Colore di hover */
+}

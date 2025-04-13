@@ -1,0 +1,347 @@
+/* Stili per la pagina di inserimento test */
+.test-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .home-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .home-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-container input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+  }
+  
+  .green-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .green-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .test-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .test-item {
+    background-color: #f4f7fc;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: darkred;
+  }
+  .testfisici-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .home-button {
+    text-decoration: none;
+    background: #1f2937;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .home-button:hover {
+    background: #374151;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+  
+  .form-container input {
+    flex: 1 1 200px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .add-button {
+    background: #10b981;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .add-button:hover {
+    background: #059669;
+  }
+  
+  .lista-test {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .test-row {
+    display: flex;
+    justify-content: space-between;
+    background: #f9fafb;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .test-row span {
+    flex: 1 1 150px;
+  }
+  
+  .delete-button {
+    background: transparent;
+    border: none;
+    color: #ef4444;
+    cursor: pointer;
+  }
+  .testfisici-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .test-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .delete-button {
+    color: red;
+    cursor: pointer;
+  }
+  .testfisici-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .header h1 {
+    font-size: 1.5rem;
+    color: #1a1a1a;
+  }
+  
+  .home-button {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-container {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-container input {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    flex: 1;
+    min-width: 160px;
+    max-width: 200px;
+  }
+  
+  .add-button {
+    padding: 0.4rem 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-button:hover {
+    background-color: #218838;
+  }
+  
+  .lista-test {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .test-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .test-row span {
+    flex: 1;
+    font-size: 0.9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .delete-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #dc3545;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .delete-button:hover {
+    color: #a71d2a;
+  }
+  /* Aggiungi il CSS per il tasto Home in alto a destra */
+  .select-player {
+    margin: 20px 0;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .radar-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .test-fisici-page {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .home-button {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .form-container input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  .add-button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #218838;
+  }
+  
+  .radar-chart-container {
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .lista-test {
+    margin-top: 20px;
+  }
+  
+  .test-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
