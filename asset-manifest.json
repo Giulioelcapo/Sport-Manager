@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sport-manager/static/css/main.d5afa375.css",
+    "main.js": "/sport-manager/static/js/main.dd6db102.js",
+    "static/js/453.16d14a4b.chunk.js": "/sport-manager/static/js/453.16d14a4b.chunk.js",
+    "index.html": "/sport-manager/index.html",
+    "main.d5afa375.css.map": "/sport-manager/static/css/main.d5afa375.css.map",
+    "main.dd6db102.js.map": "/sport-manager/static/js/main.dd6db102.js.map",
+    "453.16d14a4b.chunk.js.map": "/sport-manager/static/js/453.16d14a4b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5afa375.css",
+    "static/js/main.dd6db102.js"
+  ]
+}
