@@ -1,15 +1,23 @@
 {
   "files": {
     "main.css": "/Sport-Manager/static/css/main.d5afa375.css",
-    "main.js": "/Sport-Manager/static/js/main.969a49f2.js",
+    "main.js": "/Sport-Manager/static/js/main.e671fc4d.js",
+    "static/js/239.a466f063.chunk.js": "/Sport-Manager/static/js/239.a466f063.chunk.js",
+    "static/js/977.161215fe.chunk.js": "/Sport-Manager/static/js/977.161215fe.chunk.js",
+    "static/js/732.7e2e3b2d.chunk.js": "/Sport-Manager/static/js/732.7e2e3b2d.chunk.js",
+    "static/js/952.c4c94d3f.chunk.js": "/Sport-Manager/static/js/952.c4c94d3f.chunk.js",
     "static/js/453.16d14a4b.chunk.js": "/Sport-Manager/static/js/453.16d14a4b.chunk.js",
     "index.html": "/Sport-Manager/index.html",
     "main.d5afa375.css.map": "/Sport-Manager/static/css/main.d5afa375.css.map",
-    "main.969a49f2.js.map": "/Sport-Manager/static/js/main.969a49f2.js.map",
+    "main.e671fc4d.js.map": "/Sport-Manager/static/js/main.e671fc4d.js.map",
+    "239.a466f063.chunk.js.map": "/Sport-Manager/static/js/239.a466f063.chunk.js.map",
+    "977.161215fe.chunk.js.map": "/Sport-Manager/static/js/977.161215fe.chunk.js.map",
+    "732.7e2e3b2d.chunk.js.map": "/Sport-Manager/static/js/732.7e2e3b2d.chunk.js.map",
+    "952.c4c94d3f.chunk.js.map": "/Sport-Manager/static/js/952.c4c94d3f.chunk.js.map",
     "453.16d14a4b.chunk.js.map": "/Sport-Manager/static/js/453.16d14a4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5afa375.css",
-    "static/js/main.969a49f2.js"
+    "static/js/main.e671fc4d.js"
   ]
 }
